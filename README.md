@@ -7,7 +7,7 @@ An end-to-end MERN stack job portal where users can create profiles, post job li
 
 💡 Update the FRONTEND_URL and links after deployment.
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 Frontend:
 
 React.js (with Vite)
