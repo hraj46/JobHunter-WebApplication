@@ -22,13 +22,14 @@ An end-to-end MERN stack job portal where users can create profiles, post job li
 - Cloudinary (Image Uploads)
 - Nodemailer (Email Service)
 
-#### Authentication:
+### Authentication:
 - JWT (JSON Web Tokens)
 - Bcrypt for password hashing
 
 ---
 
 ## 🔧 Features
+```
 ✅ User Signup/Login
 ✅ Recruiter and Candidate Roles
 ✅ Job Posting and Management
@@ -37,6 +38,8 @@ An end-to-end MERN stack job portal where users can create profiles, post job li
 ✅ Secure Password Storage
 ✅ Mobile Responsive UI
 ✅ RESTful API Integration
+
+---
 
 ## 📁 Folder Structure (Simplified)
 - /client       → Frontend code (React)
