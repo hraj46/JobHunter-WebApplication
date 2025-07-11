@@ -7,14 +7,13 @@ An end-to-end MERN stack job portal where users can create profiles, post job li
 
 ### 💡 Update the FRONTEND_URL and links after deployment.
 
+---
+
 ## 🛠️ Tech Stack
 ### Frontend:
-
-React.js (with Vite)
-
-Tailwind CSS
-
-Axios
+- React.js (with Vite)
+- Tailwind CSS
+- Axios
 
 ### Backend:
 
