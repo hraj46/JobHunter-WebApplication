@@ -5,7 +5,7 @@ An end-to-end MERN stack job portal where users can create profiles, post job li
 🚀 Frontend: [Coming Soon]
 🔙 Backend: [Coming Soon]
 
-### 💡 Update the FRONTEND_URL and links after deployment.
+#### 💡 Update the FRONTEND_URL and links after deployment.
 
 ---
 
@@ -78,21 +78,28 @@ cd JobHunter-WebApplication
 ```
 ### 2. Install Dependencies
 #### Install backend:
+```
 cd server
 npm install
-
+```
 #### Install frontend:
+```
 cd ../client
 npm install
-
+```
 ### 3. Run the Project
 #### Start backend:
+```
 cd ../server
 npm start
-
+```
 #### Start frontend:
+```
 cd ../client
 npm run dev
+```
+
+---
 
 ## 📸 Screenshots
 <img width="1872" height="919" alt="Screenshot (208)" src="https://github.com/user-attachments/assets/10fbca7c-3e71-4561-948a-ba3ed1f62c0d" />
@@ -100,9 +107,15 @@ npm run dev
 <img width="1897" height="919" alt="Screenshot (210)" src="https://github.com/user-attachments/assets/0ba3baca-f2ba-481c-be1a-b08e1b51bfb2" />
 <img width="1891" height="913" alt="Screenshot (211)" src="https://github.com/user-attachments/assets/54c50bc4-091d-408e-8139-99cbcce76ad8" />
 
+---
+
 ## 🤝 Contributing
+```
 Contributions, suggestions, and issues are welcome!
 Please open a pull request or issue for any changes or questions.
+```
+
+---
 
 ## 📜 License
 MIT License © Himanshu Raj
