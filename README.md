@@ -5,7 +5,7 @@ An end-to-end MERN stack job portal where users can create profiles, post job li
 🚀 Frontend: [Coming Soon]
 🔙 Backend: [Coming Soon]
 
-# 💡 Update the FRONTEND_URL and links after deployment.
+💡 Update the FRONTEND_URL and links after deployment.
 
 # 🛠️ Tech Stack
 Frontend:
