@@ -16,22 +16,17 @@ An end-to-end MERN stack job portal where users can create profiles, post job li
 - Axios
 
 ### Backend:
+- Node.js
+- Express.js
+- MongoDB (Mongoose)
+- Cloudinary (Image Uploads)
+- Nodemailer (Email Service)
 
-Node.js
+#### Authentication:
+- JWT (JSON Web Tokens)
+- Bcrypt for password hashing
 
-Express.js
-
-MongoDB (Mongoose)
-
-Cloudinary (Image Uploads)
-
-Nodemailer (Email Service)
-
-Authentication:
-
-JWT (JSON Web Tokens)
-
-Bcrypt for password hashing
+---
 
 ## 🔧 Features
 ✅ User Signup/Login
@@ -44,27 +39,26 @@ Bcrypt for password hashing
 ✅ RESTful API Integration
 
 ## 📁 Folder Structure (Simplified)
-/client       → Frontend code (React)
-/server       → Backend code (Node + Express)
-/uploads      → For resume/image uploads (if stored locally)
-/env.example  → Environment variable setup guide
+- /client       → Frontend code (React)
+- /server       → Backend code (Node + Express)
+- /uploads      → For resume/image uploads (if stored locally)
+- /env.example  → Environment variable setup guide
 
 ## 📦 Environment Variables
 Create a .env file in the backend and frontend folders. Example variables:
+### Backend .env
+- PORT=8000
+- SECRET_KEY=your_secret_key
+- MONGO_URI=your_mongodb_connection_string
 
-## Backend .env
-PORT=8000
-SECRET_KEY=your_secret_key
-MONGO_URI=your_mongodb_connection_string
+- CLOUDINARY_CLOUD_NAME=your_cloud_name
+- CLOUDINARY_API_KEY=your_api_key
+- CLOUDINARY_API_SECRET=your_api_secret
 
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
+- EMAIL_USER=your_email@gmail.com
+- EMAIL_PASS=your_email_app_password
 
-EMAIL_USER=your_email@gmail.com
-EMAIL_PASS=your_email_app_password
-
-FRONTEND_URL=http://localhost:3000  # or deployed frontend URL
+- FRONTEND_URL=http://localhost:3000  # or deployed frontend URL
 
 ## 🚀 Getting Started
 ### 1. Clone the Repository
