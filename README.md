@@ -38,6 +38,7 @@ An end-to-end MERN stack job portal where users can create profiles, post job li
 ✅ Secure Password Storage
 ✅ Mobile Responsive UI
 ✅ RESTful API Integration
+```
 
 ---
 
@@ -47,46 +48,52 @@ An end-to-end MERN stack job portal where users can create profiles, post job li
 - /uploads      → For resume/image uploads (if stored locally)
 - /env.example  → Environment variable setup guide
 
+---
+
 ## 📦 Environment Variables
 Create a .env file in the backend and frontend folders. Example variables:
 ### Backend .env
-- PORT=8000
-- SECRET_KEY=your_secret_key
-- MONGO_URI=your_mongodb_connection_string
+```
+PORT=8000
+SECRET_KEY=your_secret_key
+MONGO_URI=your_mongodb_connection_string
 
-- CLOUDINARY_CLOUD_NAME=your_cloud_name
-- CLOUDINARY_API_KEY=your_api_key
-- CLOUDINARY_API_SECRET=your_api_secret
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
 
-- EMAIL_USER=your_email@gmail.com
-- EMAIL_PASS=your_email_app_password
+EMAIL_USER=your_email@gmail.com
+EMAIL_PASS=your_email_app_password
 
-- FRONTEND_URL=http://localhost:3000  # or deployed frontend URL
+FRONTEND_URL=http://localhost:3000  # or deployed frontend URL
+```
+
+---
 
 ## 🚀 Getting Started
 ### 1. Clone the Repository
+```
 git clone https://github.com/hraj46/JobHunter-WebApplication.git
 cd JobHunter-WebApplication
-
+```
 ### 2. Install Dependencies
-Install backend:
-
+#### Install backend:
 cd server
 npm install
-Install frontend:
 
+#### Install frontend:
 cd ../client
 npm install
 
 ### 3. Run the Project
-Start backend:
-
+#### Start backend:
 cd ../server
 npm start
-Start frontend:
 
+#### Start frontend:
 cd ../client
 npm run dev
+
 ## 📸 Screenshots
 <img width="1872" height="919" alt="Screenshot (208)" src="https://github.com/user-attachments/assets/10fbca7c-3e71-4561-948a-ba3ed1f62c0d" />
 <img width="1895" height="916" alt="Screenshot (209)" src="https://github.com/user-attachments/assets/40ea7041-53e5-4990-bef1-82929b2d49c1" />
