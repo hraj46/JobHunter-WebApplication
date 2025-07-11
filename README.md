@@ -1,4 +1,4 @@
-🎯 JobHunter Web Application
+# 🎯 JobHunter Web Application
 An end-to-end MERN stack job portal where users can create profiles, post job listings, and apply for jobs, integrated with Cloudinary for media uploads and MongoDB for robust data storage.
 
 🌐 Live Preview
