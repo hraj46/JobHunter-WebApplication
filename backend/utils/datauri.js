@@ -5,11 +5,11 @@ import path from "path";
 const getDataUri = (file) => {
     const parser = new DataUriParser();
 
-    console.log("chala kya");
+    console.log("run");
     
     const extName = path.extname(file.originalname).toString();
 
-    console.log("chala kya");
+    console.log("run");
 
     
     return parser.format(extName, file.buffer);
