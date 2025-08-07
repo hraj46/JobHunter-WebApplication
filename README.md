@@ -24,7 +24,6 @@ An end-to-end MERN stack job portal where users can create profiles, post job li
 
 ### Authentication:
 - JWT (JSON Web Tokens)
-- Bcrypt for password hashing
 
 ---
 
