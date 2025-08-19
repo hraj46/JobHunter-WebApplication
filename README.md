@@ -112,8 +112,3 @@ npm run dev
 ## 🤝 Contributing
 Contributions, suggestions, and issues are welcome! 
 Please open a pull request or issue for any changes or questions.
-
----
-
-## 📜 License
-MIT License © Himanshu Raj
